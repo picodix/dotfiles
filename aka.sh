@@ -16,7 +16,7 @@ if [[ "$1" == "install" ]]; then
     brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
     # Install some good stuff
-    brew cask install atom sublime-text alfred slack hyper google-chrome chromium spotify tower fontprep franz dropbox kap macdown unrarx
+    brew cask install atom sublime-text alfred slack hyper google-chrome chromium spotify tower fontprep franz dropbox kap macdown unrarx dashlane
 
     # create subl shortcut for Sublime Text
     ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
