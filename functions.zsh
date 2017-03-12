@@ -5,4 +5,6 @@ function toLowerCase() {
 function link-dropbox() {
     ln -s ~/Dropbox/Apps/Hyper/.hyper.js ~/.hyper.js
     ln -s ~/Dropbox/Apps/Atom ~/.atom
+    ln -s ~/Dropbox/Apps/Code/app ~/Library/Application\ Support/Code
+    ln -s ~/Dropbox/Apps/Code/extensions/.vscode ~/.vscode
 }
