@@ -13,3 +13,10 @@ alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 
 # Fuck / correct last command
 # alias fuck='$(thefuck $(fc -ln -1))'
+
+alias hp=""
+alias nr="npm run"
+alias ni="npm install"
+alias nis="npm install --save"
+alias serve="python -m SimpleHTTPServer"
+alias l="exa -abghl --group-directories-first"
