@@ -10,7 +10,7 @@ if [[ "$1" == "install" ]]; then
     # install brew, brew cask, trash
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew install caskroom/cask/brew-cask
-    brew install trash git node wget
+    brew install trash git node wget exa
 
     # install quicklook plugins
     brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
