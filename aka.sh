@@ -15,7 +15,7 @@ if [[ "$1" == "install" ]]; then
     # install quicklook plugins
     brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
-    # Install some good stuff
+    # Install some good stuff (https://caskroom.github.io/search)
     brew cask install visual-studio-code alfred slack hyper google-chrome chromium firefox helium sketch spectacle transmission vlc spotify tower fontprep station dropbox sip flume unrarx dashlane
 
     # install oh-my-zsh
