@@ -10,9 +10,6 @@ function link-dropbox() {
     # Hyper
     ln -s ~/Dropbox/Apps/Hyper/.hyper.js ~/.hyper.js
 
-    # Atom
-    ln -s ~/Dropbox/Apps/Atom ~/.atom
-
     # Visual Studio Code
     ln -s ~/Dropbox/Apps/Code/app ~/Library/Application\ Support/Code
     ln -s ~/Dropbox/Apps/Code/extensions/.vscode ~/
