@@ -8,7 +8,7 @@ function link-dropbox() {
     ln -fs ~/Dropbox/Apps/zsh/.zshrc ~/.zshrc
 
     # Hyper
-    ln -s ~/Dropbox/Apps/Hyper/.hyper.js ~/.hyper.js
+    ln -fs ~/Dropbox/Apps/Hyper/.hyper.js ~/.hyper.js
 
     # Visual Studio Code
     ln -s ~/Dropbox/Apps/Code/app ~/Library/Application\ Support/Code
