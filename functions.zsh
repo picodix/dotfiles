@@ -14,8 +14,8 @@ function link-dropbox() {
     ln -fs ~/Dropbox/Apps/Code/app ~/Library/Application\ Support/Code
     ln -fs ~/Dropbox/Apps/Code/extensions/.vscode ~/
 
-	# Spectacle
-	ln -fs ~/Dropbox/Apps/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+    # Spectacle
+    ln -fs ~/Dropbox/Apps/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
 
     # Save capture One settings
     # ln -s ~/Dropbox/Apps/Capture\ One ~/Library/Application\ Support
