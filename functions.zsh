@@ -11,8 +11,8 @@ function link-dropbox() {
     ln -fs ~/Dropbox/Apps/Hyper/.hyper.js ~/.hyper.js
 
     # Visual Studio Code
-    ln -s ~/Dropbox/Apps/Code/app ~/Library/Application\ Support/Code
-    ln -s ~/Dropbox/Apps/Code/extensions/.vscode ~/
+    ln -fs ~/Dropbox/Apps/Code/app ~/Library/Application\ Support/Code
+    ln -fs ~/Dropbox/Apps/Code/extensions/.vscode ~/
 
 	# Spectacle
 	ln -s ~/Dropbox/Apps/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
