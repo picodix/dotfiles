@@ -4,8 +4,8 @@ function toLowerCase() {
 
 function link-dropbox() {
     # zsh / oh-my-zsh
-    ln -s ~/dropbox/Apps/zsh/.oh-my-zsh ~/.oh-my-zsh
-    ln -s ~/Dropbox/Apps/zsh/.zshrc ~/.zshrc
+    ln -fs ~/dropbox/Apps/zsh/.oh-my-zsh ~/.oh-my-zsh
+    ln -fs ~/Dropbox/Apps/zsh/.zshrc ~/.zshrc
 
     # Hyper
     ln -s ~/Dropbox/Apps/Hyper/.hyper.js ~/.hyper.js
