@@ -11,7 +11,7 @@ source ~/.nvm/nvm.sh
 # exports
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
 export PATH=$PATH:$HOME/.yarn/bin
-export EDITOR='/Applications/Atom.app/Contents/MacOS/Atom -nw'
+export EDITOR='/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron -nw'
 
 # Put brew cask apps in the root Apps dir
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
