@@ -43,18 +43,12 @@ if [[ "$1" == "install" ]]; then
     echo "----------------------------------"
     echo "\n"
     echo "Also consider download"
-    echo "Sketch: https://www.sketchapp.com/"
     echo "AppZapper: https://www.appzapper.com/"
     echo "Dash: https://kapeli.com/dash"
-    echo "Helium: http://heliumfloats.com/"
     echo "ImageOptim: https://imageoptim.com/mac"
-    echo "Irvue: https://itunes.apple.com/us/app/irvue/id1039633667?mt=12"
-    echo "Kap: https://getkap.co/"
-    echo "Sip: http://sipapp.io/"
     echo "Magnet: http://magnet.crowdcafe.com/"
     echo "Paw: https://paw.cloud/"
     echo "Rocket: http://matthewpalmer.net/rocket/"
-    echo "Zeplin: https://zeplin.io/"
     echo "----------------------------------"
 
     elif [[ "$1" == "uninstall" ]]; then
