@@ -9,7 +9,4 @@ function link-dropbox() {
 
     # Hyper
     ln -fs ~/Dropbox/Apps/Hyper/.hyper.js ~/.hyper.js
-
-    # Save capture One settings
-    # ln -s ~/Dropbox/Apps/Capture\ One ~/Library/Application\ Support
 }
