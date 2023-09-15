@@ -23,6 +23,8 @@ if [[ "$1" == "install" ]]; then
     git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
     # install oh-my-zsh yarn autocompletions
     git clone https://github.com/g-plane/zsh-yarn-autocompletions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+     # install oh-my-zsh syntax highlight
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/zsh-syntax-highlighting
 
     ln -s ~/.dotfiles/hyperzsh.zsh-theme ~/.oh-my-zsh/themes/hyperzsh.zsh-theme
     ln -s ~/.dotfiles/.zshrc ~/.zshrc
