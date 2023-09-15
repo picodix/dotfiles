@@ -7,23 +7,22 @@ if [[ "$1" == "install" ]]; then
        mv ~/.zshrc ~/.zshrc.bak
     fi
 
-    # install brew, brew cask, trash
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    brew install caskroom/cask/brew-cask
-    brew install trash git node wget exa
+    # install brew, trash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew install trash wget
 
     # install quicklook plugins
-    brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+    brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
 
-    # Install some good stuff (https://caskroom.github.io/search)
-    brew cask install visual-studio-code alfred slack hyper google-chrome chromium firefox spectacle spotify fontprep dropbox unrarx
+    # Install some good stuff (https://formulae.brew.sh/formula/)
+    brew install visual-studio-code alfred slack hyper google-chrome chromium firefox unrarx
 
     # install oh-my-zsh
     curl -L http://install.ohmyz.sh | sh
-    # install oh-my-zsh syntax highlight
-    git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/zsh-syntax-highlighting
-    # install z
-    git clone https://github.com/rupa/z /usr/local/bin/z/
+    # install oh-my-zsh syntax auto suggestions
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+    # install oh-my-zsh yarn autocompletions
+    git clone https://github.com/g-plane/zsh-yarn-autocompletions ~/.oh-my-zsh/plugins/zsh-autosuggestions
 
     ln -s ~/.dotfiles/hyperzsh.zsh-theme ~/.oh-my-zsh/themes/hyperzsh.zsh-theme
     ln -s ~/.dotfiles/.zshrc ~/.zshrc
