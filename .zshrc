@@ -6,7 +6,6 @@ ZSH_THEME="hyperzsh"
 plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.nvm/nvm.sh
 
 # exports
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
