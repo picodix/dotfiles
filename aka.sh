@@ -42,12 +42,8 @@ if [[ "$1" == "install" ]]; then
     echo "----------------------------------"
     echo "\n"
     echo "Also consider download"
-    echo "AppZapper: https://www.appzapper.com/"
-    echo "Dash: https://kapeli.com/dash"
+    echo "AppCleaner: https://freemacsoft.net/appcleaner/"
     echo "ImageOptim: https://imageoptim.com/mac"
-    echo "Magnet: http://magnet.crowdcafe.com/"
-    echo "Paw: https://paw.cloud/"
-    echo "Rocket: http://matthewpalmer.net/rocket/"
     echo "----------------------------------"
 
     elif [[ "$1" == "uninstall" ]]; then
